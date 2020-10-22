@@ -7,10 +7,10 @@ import Style from "./Header.module.scss"
 const Header = () => {
   return (
     <div className={Style.header}>
-      <div>
+      <div className={Style.item}>
         <Link to="/">Home</Link>
       </div>
-      <div>
+      <div className={Style.item}>
         <form>
           <input type="text" placeholder="serach"></input>
           <button type="submit"><FontAwesomeIcon icon={faSearch} /></button>
